@@ -4,13 +4,13 @@
 
 #include "root_util.h"
 
-function ouyangleiluo::root_util::GetTargetFunction(function f, function g) {
+function ouyangleiluo::root_util::GetTargetFunction(const function f, const function g) {
     function target = [&](double x){return f(x) - g(x);};
     return target;
 }
 
-double ouyangleiluo::root_util::root(function f, function g, function f1,
-                                     function g1, double a, double b, double eps) {
+double ouyangleiluo::root_util::root(const function f, const function g, const function f1,
+                                     const function g1, double a, double b, const double eps) {
     function target = GetTargetFunction(f, g);
     function target1 = GetTargetFunction(f1, g1);
     do {

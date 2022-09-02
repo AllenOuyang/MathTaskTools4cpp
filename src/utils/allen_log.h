@@ -2,8 +2,8 @@
 // Created by 欧阳磊落 on 2022/8/29.
 //
 
-#ifndef MATHTASKTOOLS_ALLENLOG_H
-#define MATHTASKTOOLS_ALLENLOG_H
+#ifndef MATHTASKTOOLS_ALLEN_LOG_H
+#define MATHTASKTOOLS_ALLEN_LOG_H
 //#include <log4cplus/log4cplus.h>
 //#include <string>
 //
@@ -26,4 +26,4 @@
 //    };
 //}
 
-#endif //MATHTASKTOOLS_ALLENLOG_H
+#endif //MATHTASKTOOLS_ALLEN_LOG_H

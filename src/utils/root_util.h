@@ -16,10 +16,10 @@ namespace ouyangleiluo {
     private:
         root_util();
     public:
-        static function GetTargetFunction(function f, function g);
+        static function GetTargetFunction(const function f, const function g);
 
-        static double root(function f, function g, function f1,
-                           function g1, double a, double b, double eps);
+        static double root(const function f, const function g, const function f1,
+                           const function g1, double a, double b, const double eps);
 
     };
 }
