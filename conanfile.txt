@@ -1,0 +1,5 @@
+[requires]
+log4cplus/2.0.7
+
+[generators]
+cmake
